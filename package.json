@@ -1,6 +1,6 @@
 {
   "name": "@priyanshbot/assets",
-  "version": "10.1.2",
+  "version": "10.1.3",
   "description": "Assets used in Priyanshbot",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
@@ -9,9 +9,7 @@
     "data"
   ],
   "scripts": {
-    "build": "rimraf ./dist && tsc",
-    "prepublish": "rimraf ./dist && tsc"
-  },
+    },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/priyanshu192/priyanshbot-assets.git"
